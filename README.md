@@ -1,8 +1,8 @@
-# Project Title
+# In The Moment
 
-**Insert project description here**
+**A location-triggered reminder system to better organize your notes, so that you can live in the moment**
 
-The project is deployed on Heroku: [https://project-appname.herokuapp.com](https://project-appname.herokuapp.com)
+The project is deployed on Heroku: [https://sp22-team-c.herokuapp.com/](https://sp22-team-c.herokuapp.com/)
 
 The template project is deployed on Heroku: [https://cmps-453-project-template.herokuapp.com/](https://cmps-453-project-template.herokuapp.com/)
 
@@ -42,10 +42,10 @@ python manage.py runserver
 
 | Role | Last Name | First Name | Heroku App |
 | ---- | --------- |  --------- | -----------|
-| Member A | Last Name | First Name  | [heroku_app-a.herokuapp.com](update URL here) |
-| Member B | Last Name | First Name  | [heroku_app-b.herokuapp.com](update URL here) |
-| Member C | Last Name | First Name  | [heroku_app-c.herokuapp.com](update URL here) |
-| Member D | Last Name | First Name  | [heroku_app-d.herokuapp.com](update URL here) |
+| Team Lead | Thibodeaux | Chris  | [https://sp22-team-c-a.herokuapp.com/](https://sp22-team-c-a.herokuapp.com/) |
+| Flex Lead | Duthu | Daniel  | [https://sp22-team-c-b.herokuapp.com/](https://sp22-team-c-b.herokuapp.com/) |
+| Product Lead | Castille | Alex  | [https://sp22-team-c-c.herokuapp.com/](https://sp22-team-c-c.herokuapp.com/) |
+| Tech Lead | Blanchard | Lucas  | [https://sp22-team-c-d.herokuapp.com/](https://sp22-team-c-d.herokuapp.com/) |
 
 ## Set up GitLab CD
 See the [DEPLOY.md](DEPLOY.md)
