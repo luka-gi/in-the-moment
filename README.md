@@ -38,7 +38,6 @@ python manage.py runserver
 ```
 
 ## Team Members
-**Update the last name, first name, Heroku app name, and URLs in the table below **
 
 | Role | Last Name | First Name | Heroku App |
 | ---- | --------- |  --------- | -----------|
