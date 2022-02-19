@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <style type="text/css">
+        body, html {
+            height: 100%;
+        }
+        div {
+            height: 100%;
+        }
+        #map {
+            float: right;
+            height: 80%;
+            width: 80%;
+        }
+    </style>
+    <div class="container">
+        <iframe id ="map" src="https://api.maptiler.com/maps/pastel/?key=1i91qxFTKmfejcVzAhk9#-0.2/0.00000/25.26228">
+        </iframe>
+    </div>
+{% endblock %}
