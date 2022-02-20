@@ -1,20 +1,24 @@
+<link rel="stylesheet" type="text/css" href="static/css/map.css">
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <style type="text/css">
-        body, html {
-            height: 100%;
-        }
-        div {
-            height: 100%;
-        }
-        #map {
-            float: right;
-            height: 80%;
-            width: 80%;
-        }
-    </style>
     <div class="container">
+        <div class="sidebar">
+            <div class="buttonRow">
+                <div class="mapButton">
+                    <button><i class="fas fa-2x fa-solid fa-plus"></i></i></button>
+                </div>
+                <div class="mapButton">
+                    <button><i class="fas fa-2x fa-solid fa-wrench"></i></button>
+                </div> 
+                <div class="mapButton">
+                    <button><i class="fas fa-2x fa-solid fa-route"></i></button>
+                </div>  
+                <div class="mapButton">
+                    <button><i class="fas fa-2x fa-solid fa-map"></i></button>
+                </div>
+            </div>           
+        </div>
         <iframe id ="map" src="https://api.maptiler.com/maps/pastel/?key=1i91qxFTKmfejcVzAhk9#-0.2/0.00000/25.26228">
         </iframe>
     </div>
