@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+}
+
+div {
+    height: 100%;
+}
+
+#map {
+    float: right;
+    height: 80%;
+    width: 80%;
+}
+
+.sidebar {
+	background-color: lightgray;
+	display: inline-flex;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	height: 80%;
+	width: 20%;
+}
+
+.mapButton {
+	display: inline-block;
+}
+
+.buttonRow {
+	height: 9%;
+	display: flex-wrap;
+}
+
+.container {
+	width: 100vw;
+}
