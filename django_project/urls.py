@@ -41,7 +41,7 @@ urlpatterns = [
          TemplateView.as_view(template_name="james.html"),
          name="james"),
     path('sam',
-         TemplateView.as_view(template_name="sam.html"),
+         TemplateView.as_view(template_name="Landon.html"),
          name="sam"),
     path('larry',
          TemplateView.as_view(template_name="larry.html"),
