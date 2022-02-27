@@ -42,7 +42,7 @@ urlpatterns = [
          name="james"),
     path('sam',
          TemplateView.as_view(template_name="Landon.html"),
-         name="sam"),
+         name="Landon"),
     path('larry',
          TemplateView.as_view(template_name="larry.html"),
          name="larry"),
