@@ -34,7 +34,32 @@ urlpatterns = [
     path('map',
          TemplateView.as_view(template_name="map.html"),
          name="map"),
-    path('userAnalysis/', include('userAnalysis.urls')),
+    path('userAnalysis',
+         TemplateView.as_view(
+             template_name="userAnalysis.html"),
+         name="userAnalysis"),
+    path('userAnalysis/james',
+         TemplateView.as_view(
+             template_name="james.html"),
+         name="james"),
+    path('userAnalysis/landon',
+         TemplateView.as_view(
+             template_name="landon.html"),
+         name="landon"),
+    path('userAnalysis/larry',
+         TemplateView.as_view(
+             template_name="larry.html"),
+         name="larry"),
+    path('userAnalysis/hannah',
+         TemplateView.as_view(
+             template_name="hannah.html"),
+         name="hannah"),
+    path('userAnalysis/ui&ux',
+         TemplateView.as_view(
+             template_name="ui&ux.html"),
+         name="ui&ux"),
+
+
     path('admin/', admin.site.urls),
     path('accounts/', include('users.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
