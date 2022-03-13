@@ -22,6 +22,7 @@ from django.views.generic import TemplateView
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
+    ## ORIGINAL NAVBAR ITEMS ##
     path('',
          TemplateView.as_view(template_name="home.html"),
          name="home"),
@@ -34,7 +35,37 @@ urlpatterns = [
     path('map',
          TemplateView.as_view(template_name="map.html"),
          name="map"),
-    path('userAnalysis/', include('userAnalysis.urls')),
+
+    ## USER ANALYSIS BEGINS HERE ##
+    path('userAnalysis',
+         TemplateView.as_view(
+             template_name="userAnalysis.html"),
+         name="userAnalysis"),
+        ## PERSONAS START HERE ##
+    path('james',
+         TemplateView.as_view(
+             template_name="james.html"),
+         name="james"),
+    path('landon',
+         TemplateView.as_view(
+             template_name="landon.html"),
+         name="landon"),
+    path('larry',
+         TemplateView.as_view(
+             template_name="larry.html"),
+         name="larry"),
+    path('hannah',
+         TemplateView.as_view(
+             template_name="hannah.html"),
+         name="hannah"),
+    
+        ## UI PAGE ##
+    path('ui&ux',
+         TemplateView.as_view(
+             template_name="ui&ux.html"),
+         name="ui&ux"),
+
+    ## ADMIN AND ACCOUNTS ##
     path('admin/', admin.site.urls),
     path('accounts/', include('users.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
