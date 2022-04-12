@@ -26,7 +26,7 @@ staging-a:
         - if: $GITLAB_USER_LOGIN == $GITLAB_USER_LOGIN_A && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
     script:
         - .gitlab/dpl_before_script.sh
-        - dpl --provider=heroku --app=${HEROKU_APP_STAGING}-a --api-key=$HEROKU_API_KEY_A
+        - dpl --provider=heroku --app=${HEROKU_APP_STAGING} --api-key=$HEROKU_API_KEY_A
 
 
 # Only Team Member B (GITLAB_USER_LOGIN_B) can trigger this job
